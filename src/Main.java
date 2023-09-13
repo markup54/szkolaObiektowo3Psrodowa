@@ -18,6 +18,9 @@ public class Main {
         Nauczyciel nauczycielW = new Nauczyciel("Witosław",50,"matematyka");
         System.out.println(nauczycielW);
         System.out.println(nauczycielS);
+        Klasa klasa3p = new Klasa("3P");
+        Wychowawca nauczycielP = new Wychowawca("Apolonia",70,klasa3p,"technika","muzyka");
+        System.out.println(nauczycielP);
 
     }
 }
