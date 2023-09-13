@@ -6,5 +6,7 @@ public class Main {
         osoba1.setWiek(-12);
         System.out.println(osoba1.getImie());
         System.out.println(osoba1.getWiek());
+        Osoba osoba2 = new Osoba("Asia",16);
+        System.out.println(osoba2);
     }
 }

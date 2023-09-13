@@ -2,6 +2,17 @@ public class Osoba {
     private String imie;
     private int wiek;
 
+    public Osoba() {
+        imie="Edek";
+        wiek =80;
+    }
+    public Osoba(String imie, int wiek) {
+        this.imie = imie;
+        this.wiek = wiek;
+    }
+
+
+
     public String getImie() {
         return imie;
     }
