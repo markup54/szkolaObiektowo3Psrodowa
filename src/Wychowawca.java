@@ -5,4 +5,11 @@ public final class Wychowawca extends Nauczyciel{
         super(imie, wiek, przedmioty);
         this.klasa = klasa;
     }
+
+    @Override
+    public String toString() {
+        return "Wychowawca{" +
+                "klasa=" + klasa +
+                "} " + super.toString();
+    }
 }

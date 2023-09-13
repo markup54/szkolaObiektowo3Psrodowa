@@ -8,4 +8,20 @@ public class Klasa {
         this.nazwa = nazwa;
         uczniowie = new ArrayList<>();
     }
+
+    public void dodajUczniaDoKlasy(Uczen uczen){
+        if(uczniowie.contains(uczen)){
+            System.out.println("Ten uczeń jest już w klasie");
+        }
+        else {
+            uczniowie.add(uczen);
+        }
+    }
+    @Override
+    public String toString() {
+        return "Klasa{" +
+                "nazwa='" + nazwa + '\'' +
+                ", uczniowie=" + uczniowie +
+                '}';
+    }
 }
