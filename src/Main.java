@@ -14,6 +14,10 @@ public class Main {
         System.out.println(uczen1);
         System.out.println(uczen2);
         System.out.println(uczen);
+        Nauczyciel nauczycielS = new Nauczyciel("Sebastian",35,"testowanie","bazy danych","wf","technika");
+        Nauczyciel nauczycielW = new Nauczyciel("Witosław",50,"matematyka");
+        System.out.println(nauczycielW);
+        System.out.println(nauczycielS);
 
     }
 }
