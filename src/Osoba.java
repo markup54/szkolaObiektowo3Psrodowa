@@ -1,4 +1,6 @@
-public class Osoba {
+public abstract class Osoba {
+    //klasa abastrakcyjna nie pozwala na tworzenie jej obiektów
+    //można tylk wykorzystać ją do dziedziczenia
     private String imie;
     private int wiek;
 
