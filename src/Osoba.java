@@ -33,4 +33,12 @@ public class Osoba {
             this.wiek = wiek;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Osoba{" +
+                "imie='" + imie + '\'' +
+                ", wiek=" + wiek +
+                '}';
+    }
 }
